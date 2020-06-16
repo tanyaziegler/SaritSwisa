@@ -1,34 +1,43 @@
 body{
-  background-color: #dfcdc3;
-  color: #5f6769;
+  background-color: #5b5656;
+  color: #ff847c;
   font-family: 'Montserrat', sans-serif;
 }
-
+h1{
+  font-weight: 600;
+}
 h3 {
-  font-family: 'Great Vibes', cursive;
   margin-bottom: 0px;
-  font-size: 40px;
+  font-weight: bold;
 }
 p{
-  font-size: 22px;
+  font-size: 16px;
+}
+h6{
+  font-weight: bold;
 }
 /* Containers */
 
 .container-fluid{
   margin-top: 25px;
-  padding: 0% 10%;
+  padding: 0% 15%;
   margin-bottom: 25px;
 }
 /* Navigation Bar */
 
 .navbar {
 padding-top: 10px;
+text-align: left;
+color: #ea907a;
+}
+.nav.navbar-nav li a{
+  color: #ea907a;
 }
 
-.navbar-brand {
-  padding-top: 20px;
+.navbar-brand{
+  text-align: right;
+  font-weight: bolder;
 }
-
 .nav-item {
   padding: 0 20px;
 }
@@ -36,6 +45,7 @@ padding-top: 10px;
 .nav-link {
   font-size: 1.2rem;
   font-family: 'Montserrat', sans-serif;
+  color: #ea907a;
 }
 
 
@@ -48,30 +58,77 @@ padding-top: 10px;
   width: 100%;
   height: auto;
 }
-
-#home {
-  text-align: left;
+.saritImage{
+  width: 100%;
+  height: auto;
 }
 
-#home .container-fluid {
-
-  background-color: white;
-  text-align: center;
-  position: relative;
+#header{
+  text-align: right;
+  color: #e8ead3;
+}
+#header h1{
+  font-size: 80px;
+  font-weight: bolder;
+  color: #ea907a;
+  margin: 0px;
 }
 
+#header p{
+  margin-bottom: 0px;
+}
+#startingTherapy {
+  text-align: right;
+  background-color: #ea907a;
+}
+
+#startingTherapy .container-fluid {
+  color: #5b5656;
+  background-color: #ea907a;
+  margin-top: 40px;
+}
+
+#startingTherapy h1{
+
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+#startingTherapy p{
+
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
 .centreInfo{
   margin-top: auto;
   margin-bottom: auto;
 }
 
-#interests .container-fluid {
+#aboutSarit .container-fluid {
+  margin-top: 40px;
+}
 
-  background-color: white;
+
+#myServices {
   text-align: center;
-  position: relative;
+  color: #ea907a;
+  padding:40px;
+  background-color: #e8ead3;
+}
+#myServices h4{
+  text-align: center;
+  font-weight: bold;
+  color: #ff847c;
+}
+#contactMe{
+  color: #5b5656;
+  background-color: #ea907a;
+  padding:40px;
+}
+#contactMe .container-fluid {
+margin-top: 40px;
 }
 #footer .container-fluid {
   text-align: center;
   position: relative;
+  padding: 20px;
 }
