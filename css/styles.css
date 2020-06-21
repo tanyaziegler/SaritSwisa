@@ -10,6 +10,7 @@ h3 {
   margin-bottom: 0px;
   font-weight: bold;
 }
+
 p{
   font-size: 16px;
 }
@@ -19,9 +20,9 @@ h6{
 /* Containers */
 
 .container-fluid{
-  margin-top: 25px;
+  margin-top: 65px;
   padding: 0% 15%;
-  margin-bottom: 25px;
+  margin-bottom: 65px;
 }
 /* Navigation Bar */
 
@@ -59,27 +60,38 @@ color: #ea907a;
   height: auto;
 }
 .saritImage{
-  width: 100%;
-  height: auto;
-}
 
-#header{
+  border-radius: 50%;
+  width: 50%;
+  margin-top: 25px;
+  margin-left: 50px;
   text-align: right;
+}
+.services-image{
+width: 100%;
+}
+#header{
+
   color: #e8ead3;
 }
 #header h1{
+  text-align: right;
   font-size: 80px;
   font-weight: bolder;
   color: #ea907a;
   margin: 0px;
 }
-
+#header h3{
+  text-align: right;
+}
 #header p{
+  text-align: right;
   margin-bottom: 0px;
 }
 #startingTherapy {
   text-align: right;
   background-color: #ea907a;
+  padding:15px;
 }
 
 #startingTherapy .container-fluid {
@@ -103,21 +115,25 @@ color: #ea907a;
   margin-bottom: auto;
 }
 
+#aboutSarit{
+
+}
 #aboutSarit .container-fluid {
-  margin-top: 40px;
+  margin-top: 150px;
+  margin-bottom: 70px;
 }
 
 
 #myServices {
   text-align: center;
-  color: #ea907a;
-  padding:40px;
+  color: #5b5656;
+  padding:75px;
   background-color: #e8ead3;
 }
 #myServices h4{
   text-align: center;
   font-weight: bold;
-  color: #ff847c;
+  color: #5b5656;
 }
 #contactMe{
   color: #5b5656;
